@@ -1,8 +1,9 @@
-// Print happy clown face
+// Print happy clown
+// Xing He June
 
 #include <stdio.h>
 
-int main (void) {
+int main(void) {
     printf("~ ~\n");
     printf("0 0\n");
     printf(" o\n");
@@ -10,3 +11,7 @@ int main (void) {
 
     return 0;
 }
+
+
+
+
