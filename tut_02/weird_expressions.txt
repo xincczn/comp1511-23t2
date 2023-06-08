@@ -1,0 +1,25 @@
+(7 / 2)
+Sensible: 3.5
+       C: 3
+
+Int + Int => Int
+
+(3.0 / 2) + 1
+Sensible: 2.5
+       C:  2.5000
+
+Rules:
+Int + Int = > Int
+Double + Double => Double
+Double + Int => Double
+
+(Int / Int) + Double
+(3 / 2) + 1.0
+
+'a' + 5
+Sensible: (a + 5) / (a = -5) 
+       C: 97 + 5 == 102
+
+'F' - 'A' + 'a'
+Sensible: Error
+       C: 102 => 'f'

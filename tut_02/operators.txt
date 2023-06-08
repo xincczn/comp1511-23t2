@@ -1,0 +1,43 @@
+OPERATORS
+
+Arithmetic
++: addition, adding two numerical values together
+-: substraction, minus two numerical values together
+*: multiplication, times two numerical values together
+/: division, divides two numerical values together
+%: modulo, (A % B), mods A by B, returning remainder
+
+Logical
+||: (A OR B), if either are true, the statement is true
+&&: (A AND B), only if both are true, the statement is true
+!: (NOT A), negates the boolean, changing false to true and vice versa
+
+Comparison
+>: (A > B), checks if A is strictly greater than B
+>=: (A >= B), checks if A is greater or equal to B
+<: (A < B), checks if A is strictly less than B
+<=: (A <= B), checks if A is less or equal to B
+!=: (A != B), checks if both are not matching in numerical values
+==: (A == B), checks if both are matching in numerical values
+
+Other
+
+Bitwise operators that aren't covered nor used in this course.
+COMP1521 will showcase these.
+Avoid using singular & and | as these work differently.
+
+^: XOR
+>>: Bitshift right
+<<: Bitshift left 
+&: AND
+|: OR
+
+Increment and Decrement operators
+++
+--
+
+Simplified arithmetic operators
++=
+-=
+*=
+/=
