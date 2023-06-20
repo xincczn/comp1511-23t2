@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /*
     Create an integer array with at least 5 elements.
 
@@ -11,6 +9,8 @@
 
     Print out the values in the array.
 */
+
+#include <stdio.h>
 
 int main(void) {
     // We declare arrays similar to normal data type
