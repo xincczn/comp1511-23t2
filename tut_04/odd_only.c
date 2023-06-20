@@ -14,6 +14,9 @@
 
 int main(void) {
     // We declare arrays similar to normal data type
+    // When creating and initialising a variable, we use the following format
+    // <type> <variable_name> = <value>;
+
     // int [] is the type here, but the tricky part is that the [] comes after the variable name
     int array[5] = {1, 2, 3, 4, 5};
     
