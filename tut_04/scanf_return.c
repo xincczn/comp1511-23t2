@@ -9,8 +9,17 @@ int main(void) {
     // This becomes an issue for example, if you are trying to scan in characters,
     // as the user presses the enter key, it will be picked up by the scanf 
 
+    /*
+        Note that the code here is written in one line, but can be expressed as:
+
+        int i = 0;
+        int result = scanf(" %d", &i);
+        printf("Result of scanf: %d\n", result);
+    */
+
     int i = 0;
     printf("Result of scanf: %d\n", scanf(" %d", &i));
+
 
     int j = 0;
     printf("Result of scanf: %d\n", scanf(" %d %d", &i, &j));
